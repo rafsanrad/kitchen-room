@@ -1,11 +1,19 @@
 
-import './App.css'
+import "./App.css";
+import Heading from "./Components/Heading";
+import Navbar from "./Components/Navbar";
 
 function App() {
-
   return (
-    <h1>hello world</h1>
-  )
+    <div>
+      <header className="py-3 w-11/12 mx-auto">
+        <Navbar></Navbar>
+      </header>
+      <section>
+        <Heading>Kitchen Room</Heading>
+      </section>
+    </div>
+  );
 }
 
-export default App
+export default App;
