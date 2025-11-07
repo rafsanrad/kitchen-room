@@ -2,10 +2,10 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="content-box flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">
+    <div className="content-box flex flex-col md:flex-row justify-center md:justify-between items-center gap-5">
       <Logo></Logo>
       <nav>
-        <ul className="flex gap-16 ">
+        <ul className="flex gap-8 md:gap-16">
           <li className="">
             <a
               href="#"

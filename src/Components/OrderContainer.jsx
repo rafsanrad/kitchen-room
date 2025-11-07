@@ -41,8 +41,8 @@ const OrderContainer = ({ promise }) => {
         readyTotal={readyItems.length}
       ></States>
 
-      <section className="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-12 gap-5">
-        <div className="lg:col-span-7">
+      <section className="w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-12 gap-5">
+        <div className="md:col-span-7">
           <h2 className="font-bold text-3xl">Current Orders</h2>
           <div className="space-y-5">
             {orders.map((order) => (
@@ -54,7 +54,7 @@ const OrderContainer = ({ promise }) => {
             ))}
           </div>
         </div>
-        <div className="lg:col-span-5 space-y-5">
+        <div className="md:col-span-5 space-y-5">
           <h2 className="font-bold text-2xl">Cooking Now</h2>
           <div className="shadow p-10 space-y-5">
             {cookingItems.map((order) => (
