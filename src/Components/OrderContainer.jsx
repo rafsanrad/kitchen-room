@@ -22,6 +22,7 @@ const OrderContainer = ({ promise }) => {
   };
   const handleCooking=(order)=>{
     //1.ready items er vitore order k dhukao.
+    order.cooked_At=new Date().toLocaleTimeString();
     const newReadyItems=[...readyItems,order]
     setReadyItems(newReadyItems)
     //2.cooking items er vitor thke order ta k remove korbo.

@@ -19,7 +19,7 @@ const ServeCard = ({order}) => {
 
       {/* Cooking Time */}
       <p className="text-gray-600 mt-2">
-        <span className="font-semibold">Cooking Time:</span> {order.cooked_At}
+        <span className="font-semibold">Cooking Time: </span>{order.cooked_At} 
       </p>
     </div>
   );
